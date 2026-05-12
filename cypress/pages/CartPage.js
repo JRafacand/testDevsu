@@ -14,7 +14,7 @@ class CartPage {
   }
 
   completePurchaseForm({ name, country, city, card, month, year }) {
-    cy.get('#name').clear().type(name);
+    cy.get('#name').should('be.visible').and('be.enabled').clear().click().type(name, { delay: 100 }).should('have.value', name);
     cy.get('#country').clear().type(country);
     cy.get('#city').clear().type(city);
     cy.get('#card').clear().type(card);
