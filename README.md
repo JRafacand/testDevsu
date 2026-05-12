@@ -1,6 +1,6 @@
 # Prueba Funcional E2E con Cypress - Demoblaze
 
-Este proyecto automatiza un flujo de compra en https://www.demoblaze.com usando Cypress y Page Object Model.
+Este proyecto automatiza un flujo de compra en <https://www.demoblaze.com> usando Cypress y Page Object Model.
 
 ## Flujo cubierto
 
@@ -28,7 +28,7 @@ npm -v
 
 Comandos:
 
-git clone https://github.com/JRafacand/testDevsu.git
+git clone <https://github.com/JRafacand/testDevsu.git>
 cd testDevsu
 npm install
 
